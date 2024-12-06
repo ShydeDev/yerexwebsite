@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yerex Predictor 🎲</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script>
+        function redirectToDiscord() {
+            window.location.href = 'https://discord.gg/V9mY44Tpmn';
+        }
+    </script>
+    <style>
+               :root {
+            --primary: #0f1c4d;
+            --accent: #4f46e5;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(45deg, var(--primary), var(--accent));
+            animation: gradientBG 15s ease infinite;
+        }
+        
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .glow {
+            box-shadow: 0 0 15px rgba(79, 70, 229, 0.6);
+            transition: all 0.3s ease;
+        }
+        
+        .glow:hover {
+            box-shadow: 0 0 30px rgba(79, 70, 229, 0.8);
+            transform: translateY(-2px);
+        }
+        
+        .text-glow {
+            text-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+        }
+
+        .shine {
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background-size: 200% 100%;
+            animation: shine 3s infinite;
+        }
+        
+        @keyframes shine {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.05);
+            background: rgba(15, 28, 77, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Nav -->
+    <nav class="p-4 fixed w-full z-10 backdrop-blur-lg bg-opacity-80 bg-gray-900">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold text-glow animate__animated animate__fadeIn">
+                🎯 Yerex Predictor
+            </div>
+            <div class="space-x-8">
+                <a href="#features" class="hover:text-indigo-400 transition-all">⚡ Features</a>
+                <a href="#why-us" class="hover:text-indigo-400 transition-all">💡 Why Us</a>
+                <a href="#pricing" class="hover:text-indigo-400 transition-all">💎 Pricing</a>
+                <a href="#faq" class="hover:text-indigo-400 transition-all">❓ FAQ</a>
+                <a href="#reviews" class="hover:text-indigo-400 transition-all">⭐ Reviews</a>
+                <button onclick="redirectToDiscord()" class="glow bg-indigo-600 px-6 py-2 rounded-lg animate__animated animate__pulse animate__infinite">
+                    🚀 Buy Now
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="h-screen gradient-bg flex items-center">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-6xl font-bold mb-6 animate__animated animate__fadeInUp text-glow">
+                Level Up Your Game 🎮
+            </h1>
+            <p class="text-4xl mb-8 animate__animated animate__fadeInUp animate__delay-1s">
+                Advanced predictions with unmatched accuracy 🎯
+            </p>
+            <p class="text-3xl mb-12 animate__animated animate__fadeInUp animate__delay-2s">
+                Average Weekly Earnings: <span class="font-bold text-yellow-400">100,000+ Robux</span>
+            </p>
+            <a href="#pricing" class="glow bg-indigo-600 px-8 py-4 rounded-lg text-xl animate__animated animate__fadeInUp animate__delay-2s shine">Start Winning Now 🏆</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">🔥 Instant Analysis</h3>
+                    <p>Real-time predictions with 95%+ accuracy</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">⚡ Lightning Fast</h3>
+                    <p>Get results in milliseconds</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">🛡️ Anti-Detection</h3>
+                    <p>Undetectable & safe to use</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-glow">Why Choose Yerex? 🤔</h2>
+            <p class="text-center mb-12 text-2xl market-leader">#1 Most Trusted Predictor Service</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">📈 95%+ Accuracy</h3>
+                    <p>Proven track record of successful predictions</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">💬 24/7 Support</h3>
+                    <p>Always here to help you succeed</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">🔒 Secure Storage</h3>
+                    <p>All user data is stored securely with SHA-256 hashing and robust databases</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">🚀 Fast Setup</h3>
+                    <p>Get started in under 10 minutes with our easy setup process</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">🌐 Global Community</h3>
+                    <p>Join a thriving community of like-minded individuals</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">📊 Transparent Analytics</h3>
+                    <p>Access detailed reports and analytics to track your progress</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-glow">Pricing 💎</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Bot -->
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-3xl font-bold mb-8">Bot</h3>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <p class="text-gray-400 mb-2">Weekly</p>
+                            <p class="text-4xl font-bold mb-2">$6.99</p>
+                            <p class="text-gray-400 mb-4"><span class="line-through">$15.49</span></p>
+                            <button onclick="redirectToDiscord()" class="w-full bg-indigo-600 py-3 rounded-lg shine no-shadow">
+                                Get Weekly ⚡
+                            </button>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 mb-2">Monthly</p>
+                            <p class="text-4xl font-bold mb-2">$11.99</p>
+                            <p class="text-gray-400 mb-4"><span class="line-through">$19.99</span></p>
+                            <button onclick="redirectToDiscord()" class="w-full bg-indigo-600 py-3 rounded-lg shine no-shadow">
+                                Get Monthly 💎
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ESP -->
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-8 rounded-2xl">
+                    <h3 class="text-3xl font-bold mb-8">ESP</h3>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <p class="text-gray-400 mb-2">Weekly</p>
+                            <p class="text-4xl font-bold mb-2">$9.99</p>
+                            <p class="text-gray-400 mb-4"><span class="line-through">$14.99</span></p>
+                            <button onclick="redirectToDiscord()" class="w-full bg-indigo-600 py-3 rounded-lg shine no-shadow">
+                                Get Weekly ⚡
+                            </button>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 mb-2">Monthly</p>
+                            <p class="text-4xl font-bold mb-2">$19.99</p>
+                            <p class="text-gray-400 mb-4"><span class="line-through">$29.99</span></p>
+                            <button onclick="redirectToDiscord()" class="w-full bg-indigo-600 py-3 rounded-lg shine no-shadow">
+                                Get Monthly 💎
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods -->
+    <section id="payment-methods" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-glow">Accepted Payment Methods 💳</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">💎 Nitro Gifts</h3>
+                    <p>Use Discord Nitro gifts as a form of payment for our services.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🎁 Gift Cards</h3>
+                    <p>Pay with gift cards such as Amazon, iTunes, or Google Play for premium access.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">💳 Credit Cards</h3>
+                    <p>Pay securely using major credit and debit cards.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">💸 PayPal</h3>
+                    <p>Use PayPal for a fast and secure payment process.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🪙 Cryptocurrency</h3>
+                    <p>We accept major cryptocurrencies for payments.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🕹️ Robux Game Pass</h3>
+                    <p>Pay using Robux via a game pass.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🎮 Flipcoins (Tips)</h3>
+                    <p>Tip using Flipcoins to access our premium services.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🌐 And More...</h3>
+                    <p>We offer a variety of other payment methods, just ask us!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-glow">FAQ ❓</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🤔 How do I get started?</h3>
+                    <p>Join our Discord, open a ticket, and our team will guide you through setup!</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">🛡️ Is it safe to use?</h3>
+                    <p>100% undetectable and secure. We use advanced protection methods to keep your account safe.</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">⌛ How long does the setup take?</h3>
+                    <p>Setup is quick and easy, typically taking less than 10 minutes. You’ll be ready to go in no time!</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">💸 What payment methods are accepted?</h3>
+                    <p>We accept PayPal, credit/debit/gift cards, cryptocurrency, and many others. Simply select your preferred method!</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">💰 Why are there discounts?</h3>
+                    <p>We offer discounted prices to make our services more accessible. Get premium features at a great price!</p>
+                </div>
+                <div class="card-hover bg-gray-900 bg-opacity-50 p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-2">💡 What is the difference between ESP and Bot?</h3>
+                    <p>ESP provides advanced visual enhancements, while the Bot offers full platform support for maximum capability and ease of use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-glow">Reviews 🗣️</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Reno Review -->
+                <div class="card-hover bg-gray-800 p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/reno.png" alt="Reno's Image" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Reno</h3>
+                            <p class="text-sm text-gray-400">reno212</p>
+                        </div>
+                    </div>
+                    <p class="text-lg">"lol? (hit 5 tiles on 15 mines)"</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="ml-2 text-gray-400">(5/5)</span>
+                    </div>
+                </div>
+                <!-- B Review -->
+                <div class="card-hover bg-gray-800 p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/b.png" alt="b's Image" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-xl font-bold">b</h3>
+                            <p class="text-sm text-gray-400">o.o.o.ookay</p>
+                        </div>
+                    </div>
+                    <p class="text-lg">"Honestly I rock with it hard, but still getting into it. Definitely worth buying if you’re looking to make EASY profit 😃🔥"</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="ml-2 text-gray-400">(5/5)</span>
+                    </div>
+                </div>
+                <!-- Kohen Review -->
+                <div class="card-hover bg-gray-800 p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/kohen.png" alt="Kohen's Image" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Kohen</h3>
+                            <p class="text-sm text-gray-400">.kohen._</p>
+                        </div>
+                    </div>
+                    <p class="text-lg">"W ass predictor ngl (i switched back to windows 10 and forgot it don't automatically save screenshots 💀 i had more wins)"</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="ml-2 text-gray-400">(5/5)</span>
+                    </div>
+                </div>
+                <!-- Fin Review -->
+                <div class="card-hover bg-gray-800 p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/fin.png" alt="Fin's Image" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Fin</h3>
+                            <p class="text-sm text-gray-400">noble_dirald</p>
+                        </div>
+                    </div>
+                    <p class="text-lg">"W JUST WON 2K BECAUSE OF THIS"</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="ml-2 text-gray-400">(5/5)</span>
+                    </div>
+                </div>
+                <!-- Exodus Review -->
+                <div class="card-hover bg-gray-800 p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/exodus.png" alt="Exodus's Image" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Exodus</h3>
+                            <p class="text-sm text-gray-400">sprite9102nd7684</p>
+                        </div>
+                    </div>
+                    <p class="text-lg">"good for the price"</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="ml-2 text-gray-400">(5/5)</span>
+                    </div>
+                </div>
+                <!-- James Review -->
+                <div class="card-hover bg-gray-800 p-6 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/james.png" alt="James's Image" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Jamesss</h3>
+                            <p class="text-sm text-gray-400">_atjamesss</p>
+                        </div>
+                    </div>
+                    <p class="text-lg">"Went from 20 to 56 in seconds 💀, Yerexontop"</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="ml-2 text-gray-400">(5/5)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-900 text-center">
+        <p class="text-gray-500">© 2024 Yerex Predictor. All rights reserved.</p>
+    </footer>
+</body>
+</html>
